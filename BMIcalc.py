@@ -4,10 +4,10 @@ print("Enter you wieght in pounds")
 height = float(input())
 x = weight/float(height*height)
 if x < 18.5:
-    print('Underweight')
+    print('Under weight')
 if x>=18.5 and x<25:
-    print("Normal")
+    print("Normal weight")
 if x >= 25 and x < 30:
-   print('Overweight')
+   print('Over weight')
 if x >= 30:
-   print('Obesity')
+   print('Obese')
