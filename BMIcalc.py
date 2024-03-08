@@ -1,7 +1,9 @@
-print("Enter your hieght in inches")
+print("Enter your weight in pounds")
 weight = int(input())
-print("Enter you wieght in pounds")
+weight = weight * 0.45
+print("Enter you height in inches")
 height = float(input())
+height = height * 0.025
 x = weight/float(height*height)
 if x < 18.5:
     print("BMI = ",x,'Under weight')
